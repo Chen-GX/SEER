@@ -16,7 +16,8 @@ This repository contains the code for our research paper titled "[SEER: Facilita
 
 
 ## TODO :pushpin:
-- [] Release Code and Data
+- [ ] Release the Code and Data
+<!-- - [x] -->
 
 
 ## Usage :paperclip:
