@@ -1,0 +1,6 @@
+nltk
+py-rouge==1.1
+transformers
+sentencepiece
+git+https://github.com/google-research/bleurt.git
+
