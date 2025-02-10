@@ -8,6 +8,7 @@ This repository contains the code for our research paper titled "[SEER: Facilita
 
 
 <a href='https://arxiv.org/abs/2401.13246'><img src='https://img.shields.io/badge/Paper-Arxiv-red'> </a>
+<a href='https://huggingface.co/collections/Aurora-xxx/seer-67a9defb5474e5149abdae6f'><img src='https://img.shields.io/badge/Model-Huggingface-yellow'> </a>
 
 
 ## News 📢
@@ -18,7 +19,7 @@ This repository contains the code for our research paper titled "[SEER: Facilita
 
 
 ## TODO :pushpin:
-- [ ] Release the checkpoint
+- [x] Release the checkpoint
 - [x] Release the Code and Data
 <!-- - [x] -->
 
@@ -43,6 +44,11 @@ See `data/Readme.md` for details.
 Please download the retrieve, entailment and other modules to the `./exp`.
 
 See `exp/Readme.md` for details.
+
+## Checkpoint
+The model checkpoint for EntailmentBank is available on [Huggingface](https://huggingface.co/collections/Aurora-xxx/seer-67a9defb5474e5149abdae6f).
+
+⚠️ Note: The `tokenizer` file is not included in the checkpoint. Please use the tokenizer from [T5-Large](https://huggingface.co/google-t5/t5-large) as no special tokens were added during training.
 
 
 ## 1. supervised warm-up
